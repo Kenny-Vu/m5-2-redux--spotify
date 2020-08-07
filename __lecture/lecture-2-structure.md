@@ -130,6 +130,10 @@ export default combineReducers({
 });
 
 // What is the initial state?
+{
+  item: {hi:5},
+  location: 'montreal',
+}
 ```
 
 ---
@@ -179,6 +183,13 @@ export default combineReducers({
 });
 
 // What is the initial state?
+{
+  data: { entries: [] },
+  ui: {
+    modal:null,
+    tooltip:null,
+    }
+}
 ```
 
 ---
